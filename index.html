@@ -1,26 +1,78 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="shortcut icon" href="./img/favicon.ico">
-        <title>Flexbox Crash Course 2022</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="flex-container">
-            <h1>Flexbox Crash Course 2022</h1>
-            <div class="item">div 1</div>
-            <div class="item">div 2</div>
-            <div class="item">div 3</div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+     <!-- custom favicon more info: http://favicon.htmlkit.com/favicon/s9bipe2bpus1a25rmd91pckja2/replay/ -->
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="style.css" />
+    <title>Flexbox Crash Course</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">Flexbox</div>
+        <ul class="nav">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="container">
+        <div>
+          <h1>Flexbox Crash Course</h1>
+          <p>
+            This crash course was created by Brad Traversy to help you learn the
+            basics of flexbox. Flexbox is a very important and useful tool in
+            CSS.
+          </p>
         </div>
-        <footer class="footer">  &copy; 2022 Grady M. Robbins </footer>
-        <script src="" async defer></script>
-    </body>
+        <img src="https://traversymedia.com/images/grid.svg" alt="" />
+      </div>
+    </header>
+
+    <section class="boxes">
+      <div class="container">
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt-v"></i> Alignment & Space</h2>
+          <p>
+            A more efficient way to lay out, align and distribute space among
+            items in a container
+          </p>
+        </div>
+
+        <div class="box">
+          <h2><i class="fas fa-arrows-alt"></i>Tricky Positioning</h2>
+          <p>
+            Flexbox usually solves tricky problems including how to position or
+            dynamically resize elements on a page
+          </p>
+        </div>
+
+        <div class="box">
+          <h2><i class="fas fa-mobile"></i>Responsive Design</h2>
+          <p>
+            Flexbox makes building a website layout (and making it responsive!)
+            much, much easier
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
